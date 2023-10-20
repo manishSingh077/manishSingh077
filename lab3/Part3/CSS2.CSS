@@ -11,6 +11,20 @@
   }
   
   /* Layout */
+  @font-face {
+    font-family: 'font-1';
+    src: url('fonts/font-1.ttf') format('Truetype');
+  }
+  @font-face {
+    font-family: 'font-2';
+    src: url('fonts/font-2.ttf') format('Truetype');
+  }
+  html{
+    font-family:'OpenSans';
+  }
+  h1 h2{
+    font-family: 'PtSans';
+  }
   
   section {
     float: left;
