@@ -112,4 +112,11 @@
     line-height: 2.5;
   }
 
-  
+  nav li a:focus, nav li a:hover {
+    color:white;
+    background: gray;
+  }
+  nav li a:active{
+    color:white;
+    background: black;
+  }
