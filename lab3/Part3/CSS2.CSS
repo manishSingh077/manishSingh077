@@ -11,20 +11,11 @@
   }
   
   /* Layout */
-  @font-face {
-    font-family: 'font-1';
-    src: url('fonts/font-1.ttf') format('Truetype');
-  }
-  @font-face {
-    font-family: 'font-2';
-    src: url('fonts/font-2.ttf') format('Truetype');
-  }
   html{
-    font-family:'OpenSans';
+    font-family:'font-1';
+    font-size: 10px;
   }
-  h1 h2{
-    font-family: 'PtSans';
-  }
+  
   
   section {
     float: left;
@@ -49,6 +40,7 @@
     padding: 20px;
   }
   
+  
   /* header and footer */
   
   header, footer {
@@ -57,3 +49,67 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: 'font-1';
+    src: url('fonts/font-1.ttf') format('Truetype');
+  }
+  @font-face {
+    font-family: 'font-2';
+    src: url('fonts/font-2.ttf') format('Truetype');
+  }
+  h1 h2{
+    font-family: 'font-2';
+    letter-spacing: 2px;
+  }
+  h1{
+    font-size: 4rem;
+    text-align: center;
+  }
+  h2{
+    font-size: 3rem;
+  }
+
+  body{
+    font-size: 10px;
+    font-size: 'font-1';
+    word-spacing: 1px;
+
+  }
+  p, li{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  a{
+    outline:none;
+    text-decoration: none;
+    border-bottom: 1px solid palevioletred;
+    color: brown;
+  }
+  a:focus, a:hover{
+    text-decoration: none;
+  }
+
+  ul,ol{
+    margin:1em;
+  }
+  ul{
+    list-style-type: square;
+  }
+  ol{
+    list-style-type: lower-latin;
+  }
+  nav {
+    padding: 10px;
+  }
+  nav ul{
+    list-style-type: none;
+  }
+  nav li a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid;
+    font-size: 2.5rem;
+    line-height: 2.5;
+  }
+
+  
