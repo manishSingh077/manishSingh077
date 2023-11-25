@@ -15,13 +15,13 @@ const altTexts={"pic1.jpg" : "This is close up of eye",
 /* Looping through images */
 for (let imageName of imageNames){
 const newImage = document.createElement('img');
-newImage.setAttribute('src', "images/${imageName}");
+newImage.setAttribute('src', `images/${imageName}`);
 newImage.setAttribute('alt',altTexts[imageName]);
 thumbBar.appendChild(newImage);
 
 newImage.addEventListener('click', e=>{
     displayedImage.src= e.target.src;
-    displayedImage.alt=e.taret.alt;
+    displayedImage.alt=e.target.alt;
 });
 }
 
